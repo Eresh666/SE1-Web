@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Axiforma:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="chat">
+      <div class="top-bar5">
+        <b class="title63" id="titleText">CAREERNET</b>
+        <div class="navigation4">
+          <div class="tab12" id="tabText">Job Offers</div>
+          <div class="tab12" id="tabText1">Community</div>
+          <div class="tab12" id="tabText2">Events</div>
+          <div class="textfield13">
+            <div class="text40">Search in site</div>
+            <img class="ic-search-icon4" alt="" src="./public/icsearch.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="section11">
+        <div class="container16">
+          <b class="title64">Chatbot AI</b>
+          <div class="input9">
+            <div class="textfield14">
+              <div class="text41">Ask Anything</div>
+              <img
+                class="basic-send"
+                alt=""
+                src="./public/24--basic--send@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bar5">
+        <div class="container17">
+          <div class="title65">© 2024 CAREERNET</div>
+          <div class="title66">Terms & Condition</div>
+          <div class="title67">Privacy & Policy</div>
+        </div>
+        <img class="foot-bar-item" alt="" src="./public/vector-2002.svg" />
+      </div>
+    </div>
+
+    <script>
+      var titleText = document.getElementById("titleText");
+      if (titleText) {
+        titleText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var tabText = document.getElementById("tabText");
+      if (tabText) {
+        tabText.addEventListener("click", function (e) {
+          window.location.href = "./job-find.html";
+        });
+      }
+      
+      var tabText1 = document.getElementById("tabText1");
+      if (tabText1) {
+        tabText1.addEventListener("click", function (e) {
+          window.location.href = "./community.html";
+        });
+      }
+      
+      var tabText2 = document.getElementById("tabText2");
+      if (tabText2) {
+        tabText2.addEventListener("click", function (e) {
+          window.location.href = "./event-find.html";
+        });
+      }
+      </script>
+  </body>
+</html>
